@@ -1,0 +1,64 @@
+.text-entry-field{
+    width: 25vw;
+    padding: 7px;
+    border-radius: 2px;
+}
+
+.details-header{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.personal-details-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 40px;
+    width: 100vw;
+}
+
+.top-bottom-details-form{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-section-details-form{
+    display: flex;
+    column-gap: 30px;
+}
+
+.bottom-section-details-form{
+    display: flex;
+    column-gap: 30px;
+}
+
+.add-button{
+    padding: 8px 18px;
+    background-color: teal;
+    color: #efefef;
+    border: none;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
+.add-button:hover{
+    cursor: pointer;
+    background-color: #efefef;
+    color: teal;
+    border: 1px solid teal;
+}
+
+.left-section-details-form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.right-section-details-form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}

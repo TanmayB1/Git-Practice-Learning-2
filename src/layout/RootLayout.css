@@ -1,0 +1,37 @@
+.navigation-ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: teal;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .logo{
+    color: #fff;
+    font-size: 24px;
+    font-family: cursive;
+    margin-right: 10px;
+  } 
+  /* NAVBAR MENU */
+  .menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+    list-style: none;
+  }
+  
+  .menu li:hover {
+    background-color: #4c9e9e;
+    border-radius: 5px;
+    transition: 0.3s ease;
+  }
+  
+  .menu li {
+    padding: 5px 14px;
+  }
+  
+
